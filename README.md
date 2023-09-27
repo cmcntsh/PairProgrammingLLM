@@ -11,3 +11,4 @@ This is a tutorial at https://learn.deeplearning.ai/pair-programming-llm/lesson/
 * Agree to the Terms of Service.
 * Click Create API key in new project button.
 * Copy the key to somewhere secure. (You usually can't get the key again later. DON'T PUBLISH IT ANYWHERE PUBLIC!)
+* How to use the API key in Google Colab https://stackoverflow.com/questions/67087130/setting-an-api-key-in-google-colab
