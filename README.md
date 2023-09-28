@@ -31,12 +31,20 @@ This is a tutorial at https://learn.deeplearning.ai/pair-programming-llm/lesson/
   * Decorator option `decorator = "Insert comments for each line of code."`
 * Pair Programming Scenarios tutorial
   * Improving code
+    * `prompt_template = """ I don't think this code is the best way to do it in Python, can you help me? {question} Please explain, in detail, what you did to improve it. """`
   * Ask for multiple ways of rewriting code
+    * `prompt_template = """ I don't think this code is the best way to do it in Python, can you help me? {question} Please explore multiple ways of solving the problem, and explain each. """`
   * Ask the model to recommend the most "Pythonic" way to do something
+    * `prompt_template = """ I don't think this code is the best way to do it in Python, can you help me? {question} Please explore multiple ways of solving the problem, and tell me which is the most Pythonic """`
   * Simplify code
+    * `prompt_template = """ Can you please simplify this code for a linked list in Python? {question} Explain in detail what you did to modify it, and why. """`
+    * `prompt_template = """ Can you please simplify this code for a linked list in Python? \n You are an expert in Pythonic code. {question} Please comment each line in detail, \n and explain in detail what you did to modify it, and why. """`
   * Write test cases
+    * `prompt_template = """ Can you please create test cases in code for this Python code? {question} Explain in detail what these test cases are designed to achieve. """`
   * Make code more efficient
+    * `prompt_template = """ Can you please make this code more efficient? {question} Explain in detail what you changed and why. """`
   * Debug your code
+    * `prompt_template = """ Can you please help me to debug this code? {question} Explain in detail what you found and why it was a bug. """`
   * ALWAYS MAKE SURE THE CODE A MODEL PROVIDES ACTUALLY RUNS!
 * Technical Debt tutorial
   * Explain how code works
