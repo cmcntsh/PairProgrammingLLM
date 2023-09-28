@@ -21,10 +21,10 @@ This is a tutorial at https://learn.deeplearning.ai/pair-programming-llm/lesson/
 ## Useful Prompt Suggestions in the Tutorials
 
 * Getting Started tutorial
-  * `prompt = "Show me how to xxxx` gives text explanations and examples
-  * `prompt = "write code to xxxx` provides code with less explanation
+  * `prompt = "Show me how to xxxx"` gives text explanations and examples
+  * `prompt = "write code to xxxx"` provides code with less explanation
 * Using a String Template tutorial
-  * `prompt_template = """ {priming} {question} {decorator} Your solution:`
+  * `prompt_template = """ {priming} {question} {decorator} Your solution: """`
   * `priming_text = "You are an expert at writing clear, concise, Python code."`
   * `question = "create a doubly linked list"`
   * Decorator option `decorator = "Work through it step by step, and show your work. One step per line."`
